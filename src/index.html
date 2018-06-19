@@ -14,11 +14,16 @@
                 必买大牌
             </div>
             <div class="brand">
-                <dl>
-                    <dd><img src="img/1.jpg" alt=""></dd>
-                    <dt>满300减70</dt>
-                </dl>
+                
             </div>
+            <script type="text/x-handlebars-template" class="brand-tpl">
+                {{#each this}}
+                    <dl>
+                        <dd><img src="{{img}}" alt=""></dd>
+                        <dt>{{title}}</dt>
+                    </dl>
+                {{/each}}
+            </script>
         </div>
     </div>
     <script src="js/libs/require.js"></script>

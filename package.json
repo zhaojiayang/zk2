@@ -1,0 +1,21 @@
+{
+  "name": "zk2",
+  "version": "1.0.0",
+  "description": "周考2",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaojiayang/zk2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaojiayang/zk2/issues"
+  },
+  "homepage": "https://github.com/zhaojiayang/zk2#readme"
+}
