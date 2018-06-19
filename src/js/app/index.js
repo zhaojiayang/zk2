@@ -1,4 +1,4 @@
-require.define(['jquery', 'render'], function($, render){
+require(['jquery', 'render'], function($, render){
     $.ajax({
         url: '/api/list',
         dataType: 'json',

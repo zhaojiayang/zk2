@@ -24,18 +24,20 @@ html, body{
     overflow-y: scroll;
 }
 
-.maintop{
+.maintop, .assemblytop{
     width: 100%;
     height: 50px;
     line-height: 50px;
     text-align: center;
     color: #fff;
+    font-weight: bold;
 }
 
 .brand{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 0 15px;
 }
 
 .brand>dl{
@@ -57,5 +59,35 @@ html, body{
     font-size: 16px;
     background: #fff;
     text-align: center;
+    line-height: 30px;
     border-radius: 0 0 3px 3px;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+
+footer ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li img{
+    width: 50%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+footer ul li span{
+    text-align: center;
 }
